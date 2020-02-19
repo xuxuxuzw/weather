@@ -1,0 +1,30 @@
+{
+    "name": "xuxuxuzw/weather",
+    "description": "A weather SDK.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xuxuxuzw",
+            "email": "1005519915@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Xuxuxuzw\\Weather\\": "./src"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5",
+        "mockery/mockery": "^1.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xuxuxuzw\\Weather\\ServiceProvider"
+            ]
+        }
+    }
+}
